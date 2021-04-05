@@ -14,6 +14,11 @@ class App extends React.Component {
   }
 }
 
+
+// more inital changes to ensure commits are working
+
+//more lines here
+
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(<App />, rootElement);
