@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 
 class App extends React.Component {
   // you will need a place to store your state in this component.
@@ -13,4 +14,11 @@ class App extends React.Component {
   }
 }
 
-export default App;
+
+// more inital changes to ensure commits are working
+
+//more lines here
+
+const rootElement = document.getElementById('root');
+
+ReactDOM.render(<App />, rootElement);
